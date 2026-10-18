@@ -1,3 +1,10 @@
+> **Jackdaw — DHDTech.io fork.** Jackdaw is a free hosted instance of this app at
+> <https://jackdaw.dhdtech.io>. It is built on
+> [Karakeep](https://github.com/karakeep-app/karakeep) and remains licensed under
+> AGPL-3.0. Local changes: the DHDTech.io "void" and "paper" theme (zero radius,
+> Space Grotesk and Martian Mono), the Jackdaw name, logo and PWA assets, and a
+> "Built on Karakeep · AGPL-3.0" attribution line in the app sidebar.
+
 <div align="center">
     <a href="https://github.com/karakeep-app/karakeep/actions/workflows/ci.yml">
         <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/karakeep-app/karakeep/ci.yml" />
