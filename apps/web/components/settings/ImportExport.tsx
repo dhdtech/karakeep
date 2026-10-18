@@ -110,7 +110,7 @@ function ExportButton() {
               <SelectValue placeholder="Format" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="json">JSON (Karakeep format)</SelectItem>
+              <SelectItem value="json">JSON (Jackdaw format)</SelectItem>
               <SelectItem value="netscape">HTML (Netscape format)</SelectItem>
             </SelectContent>
           </Select>
@@ -291,7 +291,7 @@ export function ImportExportRow() {
           </FilePickerButton>
         </ImportCard>
         <ImportCard
-          text="Karakeep"
+          text="Jackdaw"
           description={t(
             "settings.import.import_bookmarks_from_karakeep_export",
           )}

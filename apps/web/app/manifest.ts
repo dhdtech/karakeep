@@ -2,12 +2,12 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Karakeep",
-    short_name: "Karakeep",
+    name: "Jackdaw",
+    short_name: "Jackdaw",
     description:
-      "The Bookmark Everything app. Hoard links, notes, and images and they will get automatically tagged AI.",
-    background_color: "#ffffff",
-    theme_color: "#ffffff",
+      "Jackdaw is a bookmark-everything app. Hoard links, notes, and images and they will get automatically tagged by AI.",
+    background_color: "#0a0a0a",
+    theme_color: "#0a0a0a",
     start_url: "/",
     scope: "/",
     display: "standalone",
@@ -47,14 +47,14 @@ export default function manifest(): MetadataRoute.Manifest {
         sizes: "3840x2307",
         type: "image/png",
         form_factor: "wide",
-        label: "Karakeep desktop bookmark library",
+        label: "Jackdaw desktop bookmark library",
       },
       {
         src: "/screenshots/mobile.png",
         sizes: "692x1498",
         type: "image/png",
         form_factor: "narrow",
-        label: "Karakeep mobile bookmark library",
+        label: "Jackdaw mobile bookmark library",
       },
     ],
   };

@@ -392,7 +392,7 @@ export const oauthProviders = oauthConfig
   : [];
 
 export const auth = betterAuth({
-  appName: "Karakeep",
+  appName: "Jackdaw",
   baseURL: serverConfig.publicUrl,
   secret: serverConfig.signingSecret(),
   // NEXTAUTH_URL is always trusted on top of these.

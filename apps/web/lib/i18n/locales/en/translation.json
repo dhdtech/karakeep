@@ -311,7 +311,7 @@
       "import_bookmarks_from_matter_export": "Import Bookmarks from Matter export",
       "import_bookmarks_from_omnivore_export": "Import Bookmarks from Omnivore export",
       "import_bookmarks_from_linkwarden_export": "Import Bookmarks from Linkwarden export",
-      "import_bookmarks_from_karakeep_export": "Import Bookmarks from Karakeep export",
+      "import_bookmarks_from_karakeep_export": "Import Bookmarks from Jackdaw export",
       "import_bookmarks_from_tab_session_manager_export": "Import Bookmarks from Tab Session Manager",
       "import_bookmarks_from_mymind_export": "Import Bookmarks from mymind export",
       "import_bookmarks_from_instapaper_export": "Import Bookmarks from Instapaper export",
@@ -1029,7 +1029,7 @@
     "feeds": "Feeds",
     "no_suggestions": "No suggestions",
     "mode_label": "Search mode",
-    "mode_label_description": "Choose how Karakeep finds matching bookmarks.",
+    "mode_label_description": "Choose how Jackdaw finds matching bookmarks.",
     "mode_keyword": "Keyword",
     "mode_keyword_description": "Match exact words in titles, content, URLs, and notes. Almost instant.",
     "mode_hybrid": "Hybrid",
@@ -1185,7 +1185,7 @@
   },
   "wrapped": {
     "title": "Your {{year}} Wrapped",
-    "subtitle": "A Year in Karakeep",
+    "subtitle": "A Year in Jackdaw",
     "banner": {
       "title": "Your 2025 Wrapped is ready!",
       "description": "See your year in bookmarks",
@@ -1226,7 +1226,7 @@
         "assets": "Assets"
       }
     },
-    "footer": "Made with Karakeep",
+    "footer": "Made with Jackdaw",
     "share": "Share",
     "download": "Download",
     "close": "Close",

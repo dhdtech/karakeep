@@ -1,9 +1,9 @@
-import KarakeepFull from "@/public/icons/karakeep-full.svg";
+import JackdawFull from "@/public/icons/logo-full.svg";
 
 export default function KarakeepLogo({ height }: { height: number }) {
   return (
     <span className="flex items-center">
-      <KarakeepFull height={height} className={`fill-foreground`} />
+      <JackdawFull height={height} className={`fill-foreground`} />
     </span>
   );
 }

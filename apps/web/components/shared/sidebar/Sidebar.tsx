@@ -36,6 +36,14 @@ export default async function Sidebar({
         serverVersion={serverConfig.serverVersion}
         changeLogVersion={serverConfig.changelogVersion}
       />
+      <a
+        href="https://github.com/dhdtech/karakeep"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-xs text-muted-foreground hover:text-foreground hover:underline"
+      >
+        Built on Karakeep · AGPL-3.0
+      </a>
     </aside>
   );
 }

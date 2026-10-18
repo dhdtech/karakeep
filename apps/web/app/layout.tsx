@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Martian_Mono, Space_Grotesk } from "next/font/google";
 import { NuqsAdapter } from "nuqs/adapters/next/app";
 
 import "@karakeep/tailwind-config/globals.css";
@@ -14,16 +14,23 @@ import { Toaster } from "sonner";
 
 import { clientConfig } from "@karakeep/shared/config";
 
-const inter = Inter({
+const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
-  fallback: ["sans-serif"],
+  variable: "--font-space-grotesk",
+  fallback: ["system-ui", "sans-serif"],
+});
+
+const martianMono = Martian_Mono({
+  subsets: ["latin"],
+  variable: "--font-martian-mono",
+  fallback: ["ui-monospace", "monospace"],
 });
 
 export const metadata: Metadata = {
-  title: "Karakeep",
-  applicationName: "Karakeep",
+  title: "Jackdaw",
+  applicationName: "Jackdaw",
   description:
-    "The Bookmark Everything app. Hoard links, notes, and images and they will get automatically tagged AI.",
+    "Jackdaw is a bookmark-everything app. Hoard links, notes, and images and they will get automatically tagged by AI.",
   icons: {
     icon: [
       {
@@ -43,7 +50,7 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     capable: true,
-    title: "Karakeep",
+    title: "Jackdaw",
   },
   formatDetection: {
     telephone: false,
@@ -60,8 +67,8 @@ export const viewport: Viewport = {
   // next-themes is not reflected here, so chrome can differ from the page
   // when a user picks a theme opposite to their system preference.
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#020817" },
+    { media: "(prefers-color-scheme: light)", color: "#f5f5f4" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
   ],
 };
 
@@ -79,7 +86,9 @@ export default async function RootLayout({
       dir={isRTL ? "rtl" : "ltr"}
       suppressHydrationWarning
     >
-      <body className={inter.className}>
+      <body
+        className={`${spaceGrotesk.variable} ${martianMono.variable} font-sans`}
+      >
         <NuqsAdapter>
           <Providers
             session={session}

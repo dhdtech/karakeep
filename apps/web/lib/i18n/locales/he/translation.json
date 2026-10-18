@@ -311,7 +311,7 @@
       "import_bookmarks_from_matter_export": "ייבוא סימניות מייצוא של Matter",
       "import_bookmarks_from_omnivore_export": "ייבוא סימניות מייצוא של Omnivore",
       "import_bookmarks_from_linkwarden_export": "ייבוא סימניות מייצוא של Linkwarden",
-      "import_bookmarks_from_karakeep_export": "ייבוא סימניות מייצוא של Karakeep",
+      "import_bookmarks_from_karakeep_export": "ייבוא סימניות מייצוא של Jackdaw",
       "import_bookmarks_from_tab_session_manager_export": "ייבוא סימניות מ-Tab Session Manager",
       "import_bookmarks_from_mymind_export": "ייבוא סימניות מייצוא של mymind",
       "import_bookmarks_from_instapaper_export": "ייבוא סימניות מייצוא של Instapaper",
@@ -1036,7 +1036,7 @@
     "feeds": "פידים",
     "no_suggestions": "אין הצעות",
     "mode_label": "מצב חיפוש",
-    "mode_label_description": "בחרו כיצד Karakeep מוצא סימניות תואמות.",
+    "mode_label_description": "בחרו כיצד Jackdaw מוצא סימניות תואמות.",
     "mode_keyword": "מילת מפתח",
     "mode_keyword_description": "התאמת מילים מדויקות בכותרות, תכנים, כתובות URL והערות. כמעט מיידי.",
     "mode_hybrid": "היברידי",
@@ -1192,7 +1192,7 @@
   },
   "wrapped": {
     "title": "סיכום שנת {{year}} שלך",
-    "subtitle": "שנה ב-Karakeep",
+    "subtitle": "שנה ב-Jackdaw",
     "banner": {
       "title": "סיכום שנת 2025 שלך מוכן!",
       "description": "ראו את השנה שלכם בסימניות",
@@ -1233,7 +1233,7 @@
         "assets": "נכסים"
       }
     },
-    "footer": "נעשה באמצעות Karakeep",
+    "footer": "נעשה באמצעות Jackdaw",
     "share": "שיתוף",
     "download": "הורדה",
     "close": "סגירה",

@@ -235,7 +235,7 @@
       "import_bookmarks_from_matter_export": "Importar Favoritos de exportação do Matter",
       "import_bookmarks_from_omnivore_export": "Importar Favoritos de exportação do Omnivore",
       "import_bookmarks_from_linkwarden_export": "Importar Favoritos de exportação do Linkwarden",
-      "import_bookmarks_from_karakeep_export": "Importar Favoritos de exportação do Karakeep",
+      "import_bookmarks_from_karakeep_export": "Importar Favoritos de exportação do Jackdaw",
       "export_links_and_notes": "Exportar Links e Notas",
       "imported_bookmarks": "Favoritos Importados",
       "import_bookmarks_from_tab_session_manager_export": "Importar favoritos do Tab Session Manager",
@@ -1024,7 +1024,7 @@
     "is_from_source": "Fonte é",
     "is_not_from_source": "A fonte não é",
     "mode_label": "Modo de busca",
-    "mode_label_description": "Escolha como o Karakeep encontra favoritos correspondentes.",
+    "mode_label_description": "Escolha como o Jackdaw encontra favoritos correspondentes.",
     "mode_keyword": "Palavra-chave",
     "mode_keyword_description": "Corresponder palavras exatas em títulos, conteúdo, URLs e notas. Quase instantâneo.",
     "mode_hybrid": "Híbrido",
@@ -1192,7 +1192,7 @@
   },
   "wrapped": {
     "title": "Seu Resumo de {{year}}",
-    "subtitle": "Um Ano em Karakeep",
+    "subtitle": "Um Ano em Jackdaw",
     "banner": {
       "title": "Seu Resumo de 2025 está pronto!",
       "description": "Veja seu ano em favoritos",
@@ -1233,7 +1233,7 @@
         "assets": "Ativos"
       }
     },
-    "footer": "Feito com Karakeep",
+    "footer": "Feito com Jackdaw",
     "share": "Compartilhar",
     "download": "Baixar",
     "close": "Fechar",

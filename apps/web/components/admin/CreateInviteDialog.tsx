@@ -79,7 +79,7 @@ export default function CreateInviteDialog({
         <DialogHeader>
           <DialogTitle>Send User Invitation</DialogTitle>
           <DialogDescription>
-            Send an invitation to a new user to join Karakeep. They&apos;ll
+            Send an invitation to a new user to join Jackdaw. They&apos;ll
             receive an email with instructions to create their account and will
             be assigned the &quot;user&quot; role.
           </DialogDescription>
