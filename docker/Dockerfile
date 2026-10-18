@@ -249,3 +249,8 @@ COPY --from=mcp_builder /app/apps/mcp/dist/index.js apps/mcp/index.js
 WORKDIR /app/apps/mcp
 
 ENTRYPOINT ["node", "index.js"]
+
+################# Default target ##############
+# The deployment platform builds without a target, so the all-in-one image
+# (migrations + web + workers) must be the Dockerfile's default stage.
+FROM aio AS default
